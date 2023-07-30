@@ -1,0 +1,137 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+@import url("styles/sumario.css");
+
+:root {
+    --branco: #FFFFFF;
+    --fonte-principal: "Lobster Two";
+    --fonte-secundaria: "Caveat";
+    --preto: #000000;
+    --cinza-claro: #858585;
+    --vermelho: #2b0000;
+}
+
+body {
+  background: repeating-linear-gradient(90deg, transparent, #c1c1c1);
+  background-size: 3em 3em;
+  background-color: #8e6b6b;
+  opacity: 1;
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.animeted-world {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    font-family: var(--fonte-principal);
+}
+
+.letter {
+    transition: 0.4s;
+    transform: translateX(0);
+    cursor: grab;
+    color: #2b0000;
+}
+
+.letter:hover {
+    transform: translateY(-1rem);
+    background: -webkit-linear-gradient(120deg, hsl(19, 90%, 52%), hsl(56, 100%, 50%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width:799px) {
+    .animeted-world {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width:1700) {
+    .animeted-world {
+    font-size: 80px;
+    }
+}
+
+button {
+    background-color: #fff;
+    border: 1px solid #bc2a8d;
+    padding: 5px;
+    position: relative;
+    width: 7.2em;
+    height: 2em;
+    transition: 0.5s;
+    font-size: 17px;
+    border-radius: 0.4em;
+  }
+  
+  button p {
+    position: absolute;
+    top: 0.4em;
+    left: 1.2em;
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+    color: #bc2a8d;
+  }
+  
+  button svg {
+    position: absolute;
+    top: 0.45em;
+    right: 0.5em;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transition: 0.5s;
+    height: 1em;
+    fill: #fff
+  }
+  
+  button:hover p {
+    left: 0.6em;
+    color: #fff
+  }
+  
+  button:hover svg {
+    opacity: 1;
+  }
+  
+  button:hover {
+    background-color: #bc2a8d;
+  }
+
+  @media screen and (max-width: 699px) {
+    button {
+      margin: 1em 0  0 160px;
+    }
+  
+  }
+
+
+  @media screen and (max-width: 420px) {
+    button {
+      margin: 1em 0  0 110px;
+    }
+  
+  }
+
+  @media screen and (min-width: 700px) {
+
+    button {
+      margin: 1em 0  0 400px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+
+    button {
+      margin: 1em 0  0 0px;
+    }
+
+  }

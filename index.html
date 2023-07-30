@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffePlease.com</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Menu</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Novidades</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Ajuda</a>
+                </li>
+            </ul>
+            <img src="img/imagem-removebg-preview.png" alt="Logo da CoffePlease" class="container__imagem-logo">
+            
+            <div class="animeted-world">
+                <div class="letter">C</div>
+                <div class="letter">o</div>
+                <div class="letter">f</div>
+                <div class="letter">f</div>
+                <div class="letter">e</div>
+            </div>
+            <div class="animeted-world">
+                <div class="letter">P</div>
+                <div class="letter">l</div>
+                <div class="letter">e</div>
+                <div class="letter">a</div>
+                <div class="letter">s</div>
+                <div class="letter">e</div>
+                <div class="letter">?</div>
+            </div>
+
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Menu</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Novidades</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Ajuda</a>
+                </li>
+            </ul>
+        </ul>
+
+
+        <div class="container">
+                <a href="#" class="container__link">
+                    <img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem">
+                    <p class="container__texto">Meus favoritos</p>
+                </a>
+            <a href="#" class="container__link">
+                <img src="img/Sacola.png" alt="Carrinhos de compras" class="container__imagem">
+                <p class="container__texto">Lista de desejos</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/Vector.png" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Melhores produtos para você!!!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua escolha?">
+    </section>
+
+    <section class="sumario">
+        <p class="sumario__texto">Xuxu 900 é a mais nova cafeteira criada pelas indústrias Coffee Please?
+            Nela podemos encontrar alta tecnologia, não deixando a desejar em nenhum ponto. Ela também é portátil, logo, você pode carrega-lá para qualquer lugar quando quiser. As mais novas cápsulas da empresa ajudam bastante
+             com a utilidade da cafeteira, conseguindo fazer vários tipos de líquido, incluindo sopa.</p>
+        <img src="img/cafeteira-removebg-preview.png" alt="cafeteira da coffe please" class="sumario__foto">
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Modo de usar</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/passo1-removebg-preview.png"
+                            alt="Passo 1" class="carrousel__boom"><div class="carousel-item">
+                                <h5>Passo 1: abrir o compartimento ao lado da cafeira, inserir água quente e fechar.
+                                </h5></div></div>
+                    <div class="swiper-slide"><img src="img/passo3-removebg-preview.png"
+                            alt="Passo 2" class="carrousel__boom"><div class="carousel-item">
+                                <h5>Passo 2: abrir o compartimento circular em cima da cafeteira, inserir a cápsula de sua preferência e fecha-lá.
+                                     </h5></div></div>
+                    <div class="swiper-slide"><img src="img/passo4-removebg-preview.png"
+                            alt="Passo 3" class="carrousel__boom"><div class="carousel-item">
+                                <h5>Passo 3: Pressionar o compartimento circular para baixo e pronto, seu delicioso líquido estará pronto para você!
+                                </h5></div></div>
+                                <div class="swiper-slide"><img src="img/passo2-removebg-preview.png"
+                                    alt="Passo 4" class="carrousel__boom"><div class="carousel-item">
+                                        <h5>Passo 4: Para retirar as cápsulas utilizadas, abra o compartimento atrás da cafeteira.
+                                        </h5></div></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+    </section>
+
+    <section class="sumario">
+    <p class="sumario__aviso">(Verificar, na parte inferior da cafeteira, se as pilhas estão colocadas)</p>
+</section>
+
+    <section class="sumario">
+        <p class="sumario__texto">As novas cápsulas são para todos os gostos. Além dos cafés originais,
+             agora também temos uma inovação. Agora você não precisa ir tão longe para comprar o que gosta, pois com as novas cápsulas você consegue produzir vinhos, milkshakes, sopa, entre muitos outros.
+        </p>
+        <img src="img/potinho-removebg-preview.png" alt="cápsulas da coffe please" class="sumario__foto">
+    </section>
+
+
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Cápsulas</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/potinho6-removebg-preview.png"
+                            alt="Cápsula Cafe" class="carrousel__boom"><div class="carousel-item">
+                                <h5>Cápsula de Café</h5>
+                              </div></div>
+                     <div class="swiper-slide"><img src="img/potinho1-removebg-preview.png"
+                            alt="Cápsula Chocolate Quente" class="carrousel__boom"><div class="carousel-item">
+                                <h5>Cápsula de Chocolate Quente</h5></div></div>
+                    <div class="swiper-slide"><img src="img/potinho2-removebg-preview.png"
+                             alt="Cápsula Vinho" class="carrousel__boom"><div class="carousel-item">
+                                <h5>Cápsula de Vinho</h5></div></div>
+                    <div class="swiper-slide"><img src="img/potinho3-removebg-preview.png"
+                            alt="Cápsula Refrigerante de Laranja" class="carrousel__boom"><div class="carousel-item">
+                                <h5>Cápsula de Refrigerante de Laranja</h5></div></div>
+                            <div class="swiper-slide"><img src="img/potinho4-removebg-preview.png"
+                                alt="Cápsula Vitamina de Banana" class="carrousel__boom"><div class="carousel-item">
+                                    <h5>Cápsula de Vitamina de Banana</h5></div></div>
+                                <div class="swiper-slide"><img src="img/potinho5-removebg-preview.png"
+                                    alt="Cápsula Milkshake de Morango" class="carrousel__boom"><div class="carousel-item">
+                                        <h5>Cápsula de Milkshake de Morango</h5></div></div> 
+                </div>
+
+                   <!-- If we need navigation buttons -->
+                   <div class="swiper-button-prev"></div>
+                   <div class="swiper-button-next"></div>
+               </div>
+   
+             
+    </section>
+
+    <hr />
+
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Qualquer dúvida entre em contato pelo nosso instagram!</p>
+        </div>
+
+    <button>
+        <p>Follow me</p>
+        <a href="https://instagram.com/coffee.please900?igshid=MzRlODBiNWFlZA==">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+        </svg>
+    </a>
+    </button>
+</section>
+
+<hr>
+
+    <footer class="rodape__copy">
+    
+        <div class="rodapé__capcom">
+            <h2 class="rodapé__titulo-segundo">Autoria dos participantes do grupo</h2>
+        </div>
+    
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>
